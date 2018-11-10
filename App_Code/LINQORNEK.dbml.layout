@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQORNEK">
+  <DataContextMoniker Name="/LINQORNEKDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a518e7cf-bc99-4881-a89c-0e6ed0ac65ca" absoluteBounds="1.25, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LINQORNEKDataContext/OGRENCI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33244ed3-3cb7-4e41-9d51-a72605b81e76" absoluteBounds="1.2650000000000001, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

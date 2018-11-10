@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OKUL" Class="LINQORNEKDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\OKUL.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="OKULConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.OGRENCI" Member="OGRENCIs">
+    <Type Name="OGRENCI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AD" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SOYAD" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="EPOSTA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TELEFON" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
